@@ -1,0 +1,110 @@
+body{
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+    background-color: #7030cc;
+}
+
+nav img {
+    width: 5em;
+    cursor: pointer;
+}
+
+.menuItems {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 3em;
+}
+
+nav button {
+    padding: 1em 2em;
+    border: transparent;
+    color: #ffffff;
+    background-color: #1bbcef;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 3em;
+    padding-bottom: 2em;
+    color: #ffffff;
+    background-color: #7030cc;
+}
+
+.row1 h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+}
+
+.row1 p {
+    font-weight: 200;
+    font-size: 0.7em;
+}
+
+.row2 {
+    padding: 2em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 h2 {
+    font-size: 1.9em;
+}
+
+.row2 p {
+    width: 28em;
+    font-weight: 200;
+    font-size: 0.7em;
+
+}
+
+.row3 {
+    text-align: center;
+}
+
+.featuresBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+}
+
+.iconLogo {
+    width: 5em;
+}
+
+.singleFeatureBox {
+    width: 50%;
+    height: 100%;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 0.7em;
+    box-shadow: 11px 10px 50px -21px rgb(0 0 0 / 86%);
+}
+
+.singleFeatureBox p {
+    font-size: 0.8em;
+    color: rgb(153, 145, 145);
+}
+
+.singleFeatureBox:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+    -moz-box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+    box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+  }
+
